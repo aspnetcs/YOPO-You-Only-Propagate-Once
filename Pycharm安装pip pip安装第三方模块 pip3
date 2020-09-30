@@ -1,0 +1,42 @@
+https://blog.51cto.com/506554897/1851966
+Pycharm安装pip pip安装第三方模块
+506554897关注0人评论61174人阅读2016-09-12 14:49:52
+Pycharm安装pip pip-安装第三方组建
+
+
+
+打开pycharm → 文件 → 设置 → 项目 → project interpreter，点击“+”加号，
+
+wKiom1fWTW6BVIEWAACK1opYOI0064.png-wh_50
+
+wKioL1fWTY_DA5PfAAC5n94bD3k221.png-wh_50
+
+在搜索栏中选择pip，勾选红色框内，点击install package ，等待安装完成关闭pycharm，重新打开模块就可以使用了。
+
+##默认模块安装路径在python目录的scripts目录下边。到该目录下执行相应模块！
+
+例如：pip install python-memcached
+
+系统添加环境变量：
+
+将python的scripts目录追加到环境变量PATH后边，生效完成，在执行pip直接打开cmd即可操作。
+
+无需再进入到scripts目录。
+
+wKioL1fWTqjjAGKVAABjNb4mJPc654.png-wh_50
+
+安装第三方组件就有两种方法了
+
+第一种：
+
+pip install python-memcached
+
+第二种：
+
+    就是安装pip模块一样的安装 
+
+
+
+4. windows安装readline
+
+  python3 -m pip install pyreadline
