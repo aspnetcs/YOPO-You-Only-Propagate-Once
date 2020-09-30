@@ -1,0 +1,25 @@
+https://blog.csdn.net/qq_41558173/article/details/106101164
+报错：from torch.jit.annotations import Optional
+ImportError: cannot import name ‘Optional’
+查看自己的pytorch版本和torchvision版本是否对照~
+
+>>> import torch
+>>> import torchvision
+>>>
+>>> torch.__version__
+'1.1.0'
+>>> torchvision.__version__
+'0.3.0'
+>>>
+>>> exit()
+1
+2
+3
+4
+5
+6
+7
+8
+9
+安装pytorch1.0 要对应安装torchvision0.2.0
+
