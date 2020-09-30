@@ -1,0 +1,24 @@
+https://blog.csdn.net/u014775723/article/details/86165722
+python3.7的except Exception, e: ^ SyntaxError: invalid syntax
+
+正在努力学习的zz 2019-01-09 17:32:57   9849   收藏 3
+分类专栏： python 文章标签： python
+版权
+python2：
+
+try:
+ 
+..............
+ 
+except Exception, e:
+ 
+.........
+python3:
+
+try:
+ 
+..............
+ 
+except Exception as e:
+ 
+.........
