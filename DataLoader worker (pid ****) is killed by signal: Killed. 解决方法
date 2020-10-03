@@ -1,0 +1,13 @@
+https://blog.csdn.net/qq_32642107/article/details/100565434
+
+1、因为pytorch过程太费内存了，导致服务器内存不够，触发OS的保护机制，直接杀死了进程
+
+2、用free查看内存
+
+3、增加虚拟内存
+
+sudo dd if=/dev/zero of=/swapfile bs=1M count=1024 oflag=append conv=notrunc
+//count=1024是增加1G的虚拟内存
+1
+2
+4、在free查看内存
