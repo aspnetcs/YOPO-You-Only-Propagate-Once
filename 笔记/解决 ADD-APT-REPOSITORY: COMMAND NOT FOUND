@@ -1,0 +1,4 @@
+解决 ADD-APT-REPOSITORY: COMMAND NOT FOUND
+https://www.inbeijing.org/archives/1622
+apt-get install software-properties-common
+apt-get install python-software-properties
